@@ -1,0 +1,98 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18-Jan-2022, 4:59:13 pm
+    Author     : Umar Shaikh
+*/
+.banner_image{
+     padding-top: 75px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(./img/intro-bg_1.jpg) no-repeat center center;
+    background-size: cover;
+min-height: 600px;
+}
+#banner_content{
+    position: relative;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    margin-top: 12%;
+    margin-bottom: 12%;
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 660px;
+}
+
+footer{
+     padding: 10px 0;
+     background-color: #101010;
+     color:#9d9d9d;
+     bottom: 0;
+     width: 100%;     
+}
+
+.footer{
+     padding: 10px 0;
+     background-color: #101010;
+     color:#9d9d9d;
+     bottom: 0;
+     width: 100%;   
+     position:fixed;
+}
+
+.row_style{
+    width: 45%;
+    margin: 0 auto;
+    padding-top: 8%;
+    height: 50%
+}
+
+.centereddiv{
+position: absolute;
+width: 650px;
+height: 100px;
+top: 50%;
+left: 50%;
+-webkit-transform: translate(-50%, -50%);
+-moz-transform: translate(-50%, -50%);
+-o-transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+}
+
+.search_categories{
+  font-size: 16px;
+  padding: 10px 8px 10px 8px;
+  background:transparent;
+  border:#c12e2a thin dotted ;
+  max-width: 600px;
+  border-radius: 3px;
+  margin-top: 5px;
+  overflow: hidden;
+  position: static;
+  
+  
+}
+
+.search_categories .select{
+  width: 30%;
+  background:url('arrow.png') no-repeat;
+  background-position:70% center;
+}
+
+.search_categories .select select{
+  background-color:dimgray;
+  color:white;
+  line-height: 1;
+  border: 0;
+  padding: 0;
+  border-radius: 0;
+  width: 130%;
+  position: relative;
+  z-index: 10;
+  font-size: 1em;
+  
+}
